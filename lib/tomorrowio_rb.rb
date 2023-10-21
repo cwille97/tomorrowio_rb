@@ -1,4 +1,4 @@
-require_relative 'configuration.rb'
+require 'configuration.rb'
 require 'faraday'
 require 'json'
 

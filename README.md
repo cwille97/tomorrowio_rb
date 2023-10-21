@@ -1,4 +1,6 @@
 # tomorrowio_rb
+[![Test](https://github.com/cwille97/tomorrowio_rb/actions/workflows/test.yaml/badge.svg?branch=main&event=push)](https://github.com/cwille97/tomorrowio_rb/actions/workflows/test.yaml)
+
 A Ruby wrapper for the Tomorrow.io weather API. Right now this just supports the [weather-forecast endpoint](https://docs.tomorrow.io/reference/weather-forecast) for API v4.
 
 ## Installation

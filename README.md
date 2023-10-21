@@ -23,6 +23,6 @@ result.body
 4. Run tests with `bundle exec rspec`
 5. Push the PR
 ## Disclaimer
-This project is not affiliated with [Tomorrow.io](https://tomorrow.io) nor my employer GitHub. Contributions welcome although my resources for this volunteer project are limited. Feel free to submit small PRs although you may first want to open an issue and discuss my capacity to review a larger change. Alternatively, you are welcome to fork the project.
+This project is not affiliated with [Tomorrow.io](https://tomorrow.io) nor my employer, GitHub. Contributions welcome although my resources for this volunteer project are limited. Feel free to submit small PRs although you may first want to open an issue and discuss my capacity to review a larger change. Alternatively, you are welcome to fork the project.
 ## Credits
 Because of my inexperience with Ruby, much of my knowledge came from referencing the archived [forecast-ruby](https://github.com/darkskyapp/forecast-ruby) project.

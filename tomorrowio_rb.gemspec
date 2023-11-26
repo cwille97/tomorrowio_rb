@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = "tomorrowio_rb"
-    s.version     = "0.0.2"
+    s.version     = "0.0.3"
     s.summary     = "Ruby wrapper for the Tomorrow.io weather API"
     s.description = "Ruby wrapper for the Tomorrow.io weather API, currently only the forecast endpoint."
     s.authors     = ["Cedric Wille"]

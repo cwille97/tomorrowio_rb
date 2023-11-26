@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.0.3 (2023-11-26)
+* Fix Faraday issues
+
 ## 0.0.2 (2023-10-21)
 * Fix gemspec files
 

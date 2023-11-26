@@ -6,7 +6,7 @@ module Tomorrowiorb
     extend Configuration
 
     class << self
-        def forecast(location, timesteps=nil, units=nil)
+        def forecast(location, timesteps=["1d"], units="metric")
             connection = Faraday.new(
                 url: "#{Tomorrowiorb.api_endpoint}/weather/forecast",
                 params: {
@@ -15,9 +15,11 @@ module Tomorrowiorb
                 },
                 headers: {'Content-Type' => 'application/json'}
             )
-            req.params['timesteps'] = timesteps if timesteps
-            req.params['units'] = units if units
-            response = connection.get('')
+            response = connection.get('') do |req|
+                req.options.params_encoder = Faraday::FlatParamsEncoder
+                req.params['timesteps'] = timesteps
+                req.params['units'] = units
+            end
 
             return TomorrowioResponse.new(response.status,response.headers, response.body)
         end

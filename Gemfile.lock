@@ -1,20 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.1.1)
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
-    faraday (2.7.11)
-      base64
-      faraday-net_http (>= 2.0, < 3.1)
-      ruby2_keywords (>= 0.0.4)
-    faraday-net_http (3.0.2)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
+    faraday-net_http (3.1.0)
+      net-http
     io-console (0.6.0)
     irb (1.9.1)
       rdoc
       reline (>= 0.3.8)
+    net-http (0.4.1)
+      uri
     psych (5.1.1.1)
       stringio
     rdoc (6.6.0)
@@ -34,8 +34,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.1)
-    ruby2_keywords (0.0.5)
     stringio (3.0.9)
+    uri (0.13.0)
 
 PLATFORMS
   arm64-darwin-23
